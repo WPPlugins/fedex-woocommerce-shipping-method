@@ -1,0 +1,433 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooForce FedEx Shipping\n"
+"POT-Creation-Date: 2017-01-20 22:56+0530\n"
+"PO-Revision-Date: 2017-01-20 22:57+0530\n"
+"Last-Translator: \n"
+"Language-Team: WooForce <support@xadapter.com>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.10\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: fedex-woocommerce-shipping.php:22
+msgid ""
+"Oops! You tried installing the premium version without deactivating and "
+"deleting the basic version. Kindly deactivate and delete FedEx(Basic) "
+"Woocommerce Extension and then try again"
+msgstr ""
+"Oups ! Vous avez essayé d’installer la version premium sans désactiver et "
+"supprimer la version de base. Veuillez désactiver et supprimer l’Extension "
+"de Woocommerce FedEx(Basic) et puis essayez à nouveau"
+
+#: fedex-woocommerce-shipping.php:82
+msgid "Settings"
+msgstr "Paramètres"
+
+#: fedex-woocommerce-shipping.php:83 includes/market.php:88
+msgid "Documentation"
+msgstr "Documentation"
+
+#: fedex-woocommerce-shipping.php:84
+msgid "Support"
+msgstr "Aide"
+
+#: includes/class-wf-fedex-woocommerce-shipping.php:13
+msgid "FedEx (BASIC)"
+msgstr "FedEx (BASIC)"
+
+#: includes/class-wf-fedex-woocommerce-shipping.php:14
+msgid ""
+"Obtains  real time shipping rates (Print shipping labels via FedEx Shipping "
+"API in Premium version)."
+msgstr ""
+"Obtient les frais de livraison en temps réel (impression d’étiquettes "
+"expédition par FedEx expédition API en version Premium)."
+
+#: includes/class-wf-fedex-woocommerce-shipping.php:112
+msgid ""
+"FedEx API returns the rates in USD. Please enable Rates in base currency "
+"option in the plugin. Conversion happens only if FedEx API provide the "
+"exchange rates."
+msgstr ""
+"FedEx API renvoie les tarifs en USD. Veuillez activer les taux en option de "
+"la devise de base dans le plugin. Conversion se produit uniquement si FedEx "
+"API fournissent les taux de change."
+
+#: includes/class-wf-fedex-woocommerce-shipping.php:118
+msgid "FedEx is enabled, but the origin postcode has not been set."
+msgstr "FedEx est activée, mais le CP d’origine n’a pas été définie."
+
+#: includes/class-wf-fedex-woocommerce-shipping.php:175
+msgid "Product # is virtual. Skipping."
+msgstr "Produit #%d est virtuelle. Saut."
+
+#: includes/class-wf-fedex-woocommerce-shipping.php:180
+msgid "Product # is missing weight. Aborting."
+msgstr "Produit #%d manque son poids. Abandon."
+
+#: includes/class-wf-fedex-woocommerce-shipping.php:300
+msgid "Business Address"
+msgstr "Adresse de la compagnie"
+
+#: includes/class-wf-fedex-woocommerce-shipping.php:521
+msgid ""
+"FEDEX debug mode is on - to hide these messages, turn debug mode off in the "
+"settings."
+msgstr ""
+"Le mode debug FEDEX est sur - pour masquer ces messages, désactivez le mode "
+"débogage dans les paramètres."
+
+#: includes/data-wf-settings.php:7
+msgid "N/A"
+msgstr "N/A"
+
+#: includes/data-wf-settings.php:14
+msgid "Relatime Rates"
+msgstr "Taux de relatime"
+
+#: includes/data-wf-settings.php:16
+msgid "Enable"
+msgstr "Activer"
+
+#: includes/data-wf-settings.php:20
+msgid "Method Title"
+msgstr "Titre de méthode"
+
+#: includes/data-wf-settings.php:22
+msgid "This controls the title which the user sees during checkout."
+msgstr "Ceci contrôle le titre que l'utilisateur verra durant la commande."
+
+#: includes/data-wf-settings.php:23
+msgid "FedEx"
+msgstr "FedEx"
+
+#: includes/data-wf-settings.php:27
+msgid "FedEx Account Number"
+msgstr "Numéro de compte FedEx"
+
+#: includes/data-wf-settings.php:29 includes/data-wf-settings.php:35
+#: includes/data-wf-settings.php:41 includes/data-wf-settings.php:50
+msgid ""
+"After signup, get a <a href=\"https://www.fedex.com/wpor/web/jsp/drclinks."
+"jsp?links=wss/develop.html\">developer key here</a>. After testing you can "
+"get a <a href=\"https://www.fedex.com/wpor/web/jsp/drclinks.jsp?links=wss/"
+"production.html\">production key here</a>."
+msgstr ""
+"Après inscription, obtenir une <a href=\"https://www.fedex.com/wpor/web/jsp/"
+"drclinks.jsp?links=wss/develop.html\">clé développeur ici</a>. Après le "
+"test, vous pouvez obtenir une <a href=\"https://www.fedex.com/wpor/web/jsp/"
+"drclinks.jsp?links=wss/production.html\">clé de la production ici</a>."
+
+#: includes/data-wf-settings.php:33
+msgid "Fedex Meter Number"
+msgstr "Numéro de compteur de FedEx"
+
+#: includes/data-wf-settings.php:39
+msgid "Web Services Key"
+msgstr "Services Web"
+
+#: includes/data-wf-settings.php:48
+msgid "Web Services Password"
+msgstr "Mot de passe Web Services"
+
+#: includes/data-wf-settings.php:57
+msgid "Production Key"
+msgstr "Clé de production"
+
+#: includes/data-wf-settings.php:58
+msgid "This is a production key"
+msgstr "Il s’agit d’une clé de la production"
+
+#: includes/data-wf-settings.php:62
+msgid ""
+"If this is a production API key and not a developer key, check this box."
+msgstr ""
+"Si il s’agit d’une clé API de production et pas une clé développeur, cochez "
+"cette case."
+
+#: includes/data-wf-settings.php:65
+msgid "Debug Mode"
+msgstr "Mode débogage"
+
+#: includes/data-wf-settings.php:66
+msgid "Enable debug mode"
+msgstr "Activer le mode de débogage"
+
+#: includes/data-wf-settings.php:70
+msgid "Enable debug mode to show debugging information on the cart/checkout."
+msgstr ""
+"Activer le mode de développement pour afficher l'information de déboggage "
+"dans le panier et à la caisse."
+
+#: includes/data-wf-settings.php:73
+msgid "Dimension/Weight Unit"
+msgstr "Unité de dimension/poids"
+
+#: includes/data-wf-settings.php:74
+msgid "This unit will be passed to FedEx."
+msgstr "Cette unité sera passée à FedEx."
+
+#: includes/data-wf-settings.php:79
+msgid "Pounds & Inches"
+msgstr "Livres & pouces"
+
+#: includes/data-wf-settings.php:80
+msgid "Kilograms & Centimeters"
+msgstr "Centimètres & kilogrammes"
+
+#: includes/data-wf-settings.php:84
+msgid "Residential"
+msgstr "Plaquistes"
+
+#: includes/data-wf-settings.php:85
+msgid "Default to residential delivery"
+msgstr "Par défaut à la livraison résidentielle"
+
+#: includes/data-wf-settings.php:88
+msgid ""
+"Enables residential flag. If you account has Address Validation enabled, "
+"this will be turned off/on automatically."
+msgstr ""
+"Active l’indicateur de la résidence. Si vous compte Validation d’adresse "
+"activée, cela sera allumé / automatiquement."
+
+#: includes/data-wf-settings.php:92
+msgid "Insurance"
+msgstr "Assurance"
+
+#: includes/data-wf-settings.php:93
+msgid "Enable Insurance"
+msgstr "Permettre à l’assurance"
+
+#: includes/data-wf-settings.php:97
+msgid "Sends the package value to FedEx for insurance."
+msgstr "Envoie la valeur de paquet à FedEx pour l’assurance."
+
+#: includes/data-wf-settings.php:100
+msgid "Fedex One"
+msgstr "FedEx"
+
+#: includes/data-wf-settings.php:101
+#, php-format
+msgid "Enable %sFedex One Rates%s"
+msgstr "Activez Fedex %s un taux de %s"
+
+#: includes/data-wf-settings.php:104
+msgid ""
+"Fedex One Rates will be offered if the items are packed into a valid Fedex "
+"One box, and the origin and destination is the US. For other countries this "
+"option will enable FedEx packing. Note: All FedEx boxes are not available "
+"for all countries, disable this option or disable different boxes if you are "
+"not receiving any shipping services."
+msgstr ""
+"Un taux de FedEx seront offerts si les éléments sont emballés dans une boîte "
+"un Fedex valide et l’origine et la destination est les États-Unis. Pour les "
+"autres pays, cette option permettra d’emballage FedEx. Remarque : Toutes les "
+"boîtes de FedEx ne sont pas disponibles pour tous les pays, désactiver cette "
+"option ou désactiver les différentes cases si vous ne recevez pas les "
+"services d’expédition."
+
+#: includes/data-wf-settings.php:107
+msgid "Request Type"
+msgstr "Type de demande"
+
+#: includes/data-wf-settings.php:113
+msgid "List rates"
+msgstr "Liste d'évaluations"
+
+#: includes/data-wf-settings.php:114
+msgid "Account rates"
+msgstr "Compte des taux"
+
+#: includes/data-wf-settings.php:116
+msgid ""
+"Choose whether to return List or Account (discounted) rates from the API."
+msgstr ""
+"Indiquez si vous voulez retourner la liste, ou compte (actualisés) à partir "
+"de l’API."
+
+#: includes/data-wf-settings.php:119
+msgid "Fedex SmartPost Hub"
+msgstr "FedEx SmartPost Hub"
+
+#: includes/data-wf-settings.php:121
+msgid "Only required if using SmartPost."
+msgstr "Seulement requis si vous utilisez SmartPost."
+
+#: includes/data-wf-settings.php:127
+msgid "Indicia"
+msgstr "indices d'affranchissement"
+
+#: includes/data-wf-settings.php:132
+msgid "MEDIA MAIL"
+msgstr "Media Mail"
+
+#: includes/data-wf-settings.php:133
+msgid "PARCEL RETURN"
+msgstr "RETOUR DE COLIS"
+
+#: includes/data-wf-settings.php:134
+msgid "PARCEL SELECT"
+msgstr "SÉLECTION DE LA PARCELLE"
+
+#: includes/data-wf-settings.php:135
+msgid "PRESORTED BOUND PRINTED MATTER"
+msgstr "Bound Printed Matter"
+
+#: includes/data-wf-settings.php:136
+msgid "PRESORTED STANDARD"
+msgstr "FUTURE NORME"
+
+#: includes/data-wf-settings.php:137
+msgid "AUTOMATIC"
+msgstr "SYSTÈME"
+
+#: includes/data-wf-settings.php:141
+msgid "Offer Rates"
+msgstr "Tarifs offertes"
+
+#: includes/data-wf-settings.php:146
+msgid "Offer the customer all returned rates"
+msgstr "Proposer au client tous les taux disponible"
+
+#: includes/data-wf-settings.php:147
+msgid "Offer the customer the cheapest rate only, anonymously"
+msgstr "Proposer au client seulement le tarif le moins cher"
+
+#: includes/data-wf-settings.php:154
+msgid "Origin Postcode"
+msgstr "Code postele d'origine"
+
+#: includes/data-wf-settings.php:156
+msgid "Enter postcode for the <strong>Shipper</strong>."
+msgstr "Saisissez le code postal de l' <strong>expéditeur</strong>."
+
+#: includes/data-wf-settings.php:160
+msgid "Rates in base currency"
+msgstr "Tarifs en devise de base"
+
+#: includes/data-wf-settings.php:161
+msgid "Convert FedEx returned rates to base currency"
+msgstr "Convertir FedEx retourné les tarifs à la monnaie de base"
+
+#: includes/data-wf-settings.php:164
+msgid ""
+"Ex: FedEx returned rates in USD and would like to convert to the base "
+"currency EUR. Convertion happens only FedEx API provide the exchange rate."
+msgstr ""
+"Ex : FedEx retourné tarifs en USD et aimeriez convertir à la monnaie de base "
+"EUR Convertion arrive seule FedEx API fournissent le taux de change."
+
+#: includes/html-wf-services.php:3
+msgid "Services"
+msgstr "services"
+
+#: includes/html-wf-services.php:8
+msgid "Service(s)"
+msgstr "Service(s)"
+
+#: includes/market.php:68
+msgid "FedEx WooCommerce Extension"
+msgstr "FedEx WooCommerce Extension"
+
+#: includes/market.php:70
+msgid "Your Business is precious. Go Premium!"
+msgstr "Votre entreprise est précieuse! Passer en Premium!"
+
+#: includes/market.php:74
+msgid "Print shipping label with postage."
+msgstr "Imprimer l’étiquette d’expédition avec affranchissement."
+
+#: includes/market.php:75
+msgid "Automatic shipment tracking while generating the label."
+msgstr "Envoi automatique de suivi lors de la génération de l’étiquette."
+
+#: includes/market.php:76
+msgid "Weight based packing & box packing."
+msgstr "Poids selon emballage & emballage de boîte."
+
+#: includes/market.php:77
+msgid "WPML Support"
+msgstr "Support WPML"
+
+#: includes/market.php:78
+msgid "Change the name of shipping services and add handling costs."
+msgstr ""
+"Changer le nom de services d’expédition et ajouter des coûts de traitement."
+
+#: includes/market.php:79
+msgid "CoD, Third party payer, FedEx LTL Freight & Many more options."
+msgstr "Morue, tiers payeur, FedEx Freight LTL & beaucoup plus d’options."
+
+#: includes/market.php:80
+msgid "Timely compatibility updates and bug fixes."
+msgstr ""
+"Mises à jour de compatibilité en temps opportun et corrections de bugs."
+
+#: includes/market.php:81
+msgid "Premium support!"
+msgstr "Support Premium"
+
+#: includes/market.php:86
+msgid "Upgrade to Premium"
+msgstr "Passer à la version Premium"
+
+#: includes/market.php:87
+msgid "Live Demo"
+msgstr "Démo en direct"
+
+#~ msgid "Premium Support"
+#~ msgstr "Support Premium"
+
+#~ msgid "Faster and time bound response for support requests."
+#~ msgstr "Plus rapide et le temps lié réponse pour des demandes d’assistance."
+
+#~ msgid "More Features"
+#~ msgstr "Plus de fonctionnalités"
+
+#~ msgid ""
+#~ "Label Printing with Postage, Automatic Shipment Tracking, Box Packing, "
+#~ "Weight based Packing and Many More..."
+#~ msgstr ""
+#~ "Impression avec affranchissement, poids automatique suivi d’expédition, "
+#~ "boîte d’emballage, d’étiquettes basée emballage et beaucoup plus..."
+
+#~ msgid "French and German ( Deutschland ) language supported out of the box."
+#~ msgstr ""
+#~ "Français et allemands (Deutschland) langue prise en charge hors de la "
+#~ "boîte."
+
+#~ msgid "Various settings customization options."
+#~ msgstr "Options de personnalisation des paramètres différents."
+
+#~ msgid "Upgrade to Premium Version"
+#~ msgstr "Passer à la version Premium"
+
+#~ msgid "Your Business is precious! Go Premium!"
+#~ msgstr "Votre entreprise est précieuse! Passer en Premium!"
+
+#~ msgid ""
+#~ "WooForce FedEx Premium version for WooCommerce streamlines your complete "
+#~ "shipping process and saves time."
+#~ msgstr ""
+#~ "WooForce FedEx Premium version pour WooCommerce rationalise votre "
+#~ "processus d’expédition complet et fait gagner du temps."
+
+#~ msgid "Premium Support:"
+#~ msgstr "Support Premium"
+
+#~ msgid "More Features:"
+#~ msgstr "Plus de fonctionnalités"
+
+#~ msgid ""
+#~ "Label Printing with Postage, Automatic Shipment Tracking, Box Packing, "
+#~ "Weight based Packing and Many More.."
+#~ msgstr ""
+#~ "Impression avec affranchissement, poids automatique suivi d’expédition, "
+#~ "boîte d’emballage, d’étiquettes basée emballage et beaucoup plus..."
